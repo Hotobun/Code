@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\cocoa\source\repos\01背包问题\01背包问题\main.c(55): warning C4047: “函数”:“int *”与“int [6][21]”的间接级别不同
+c:\users\cocoa\source\repos\01背包问题\01背包问题\main.c(55): warning C4024: “show”: 形参和实参 1 的类型不同
+  01背包问题.vcxproj -> C:\Users\cocoa\source\repos\01背包问题\Debug\01背包问题.exe
