@@ -25,13 +25,13 @@
 3. 运行`blibili_anime.py`
 
 
-没什么防爬机制 f12查看Network 
-发现bilibili.com/...page=1... 里面有一页的20条数据 
-page+1 就是下一页
-headers 复制过来 然后就愉快地爬了 
-
-pkl文件夹里面的内容是每一页`requests.get(url)` 返回的`response`对象
-喜欢的话可以打开查看 是一堆json
+没什么防爬机制 f12查看Network   
+发现bilibili.com/...page=1... 里面有一页的20条数据   
+page+1 就是下一页  
+headers 复制过来 然后就愉快地爬了   
+ 
+pkl文件夹里面的内容是每一页`requests.get(url)` 返回的`response`对象  
+喜欢的话可以打开查看 是一堆json  
 ``` python
 # 2019-12-23
 import pickle
