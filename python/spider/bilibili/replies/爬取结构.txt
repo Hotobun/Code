@@ -1,0 +1,29 @@
+{
+    mid         用户id
+    oid         番剧AV号
+    rpid        评论id      # 可以用作主键
+    rcount      此评论的追评数
+    ctime       评论时间
+    like        点赞数
+    root        回复的楼层rpid 层主默认为0
+
+    member{
+        uname       用户名
+        sex         用户性别
+        sign        用户签名
+
+        level_info{
+            current_level   用户等级
+        }
+    }
+
+    content{
+        message     评论内容
+    }
+    replies: [          # 追评列表 跟上面基本一样 
+                        # 默认只加载3个评论回复  总数量为上面的rcount值
+                        # 这里跟上面的区别就是root
+        root        追评的id号 这是追评 这个值跟上一级的 rpid 一致 第四行
+    ]
+}
+
